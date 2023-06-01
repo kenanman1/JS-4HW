@@ -1,0 +1,59 @@
+div {
+  width: 500px;
+  height: 80px;
+  background-color: white;
+  border-color: gainsboro;
+  border-style: solid;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  word-break: break-all
+}
+
+#btn {
+  height: 40px;
+  background-color: green;
+  border-radius: 5px;
+  border-color: green;
+  border-style: solid;
+  color: white;
+}
+
+#inp {
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(210, 210, 210);
+}
+
+main {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+}
+
+.kek {
+  height: 200px;
+  color: blueviolet;
+}
+
+.deleteBtn {
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #FF512F 20%, #DD2476 51%, #FF512F 100%);
+  padding: 5px;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border-color: red;
+  border-style: solid;
+}
+
